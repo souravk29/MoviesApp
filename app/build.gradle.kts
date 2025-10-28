@@ -61,10 +61,21 @@ dependencies {
     // added dependencies
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+    implementation (libs.androidx.lifecycle.viewmodel.compose)
+
 
     // for database
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
+
+
+    // adding coroutines
+    implementation(libs.androidx.room.ktx)
+
+    //adding image loading library
+    implementation(libs.coil.compose)
+
+    //
 
 
 }
